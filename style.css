@@ -1,0 +1,15 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+
+}
+
+.container{
+    height: 500px;
+    font-size: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blue;
+
+}
