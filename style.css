@@ -1,15 +1,114 @@
-
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;     
-
+    box-sizing: border-box;   
+    scroll-behavior: smooth;  
 }
+
+.menu{
+    background-color: #ff4a2a;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu2{
+    background-color: #ffdc15;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menu3{
+    background-color: #ff2626;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.menuitems{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+.menuitems2 {
+    height: 90%;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+.menuitems3 {
+    height: 90%;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+
+
 
 .container{
-    height: 500px;
-    font-size: 200px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 300px;
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
     background-color: blue;
-
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid black;
 }
+
+.item{
+    height: 100%;
+    background-color: white;
+    min-width: 100px;
+}
+
+p{
+    color: rgb(255, 180, 17);
+    font-size: 64px;
+}
+
+.longscroll{
+    background-image: linear-gradient(red, yellow, blue);
+    height: 5000px;
+}
+
