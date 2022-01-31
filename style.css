@@ -5,101 +5,143 @@
     scroll-behavior: smooth;  
 }
 
+#circle{
+    z-index: 5;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    mix-blend-mode: overlay;
+    /* transform: translate(-20px, -20px); */
+}
+
+.container{
+    z-index: 9;
+    background-color: black;
+}
+
 .menu{
-    background-color: #ff4a2a;
-    height: 150px;
-    border-bottom: 10px solid black;
-    border-top: 10px solid black;
+    /* background-color: #ff4a2a; */
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 30px 30px 0px 50px;
+
 }
 
 .menu2{
-    background-color: #ffdc15;
-    height: 150px;
-    border-bottom: 10px solid black;
+    /* background-color: #ffdc15; */
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 0px 30px 0px 50px;
 }
 
 .menu3{
-    background-color: #ff2626;
-    height: 150px;
-    border-bottom: 10px solid black;
+    /* background-color: #ff2626; */
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 0px 30px 30px 50px;
 }
 
 .menuitems{
     height: 90%;
     flex-grow: 1;
     flex-shrink: 1;
-    background-color: white;
-    margin-right: 20px;
-    font-size: 18px;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 1px;
+    background-color: black;
+    margin-right: 25px;
+    font-size: 36px;
     font-family: 'Archivo Black', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;  
     transition: flex-grow .7s;
-    
 }
 
 .menuitems2 {
+    color: white;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
     height: 90%;
     flex-grow: 5;
     flex-shrink: 1;
     flex-basis: auto;
     background-color: white;
-    margin-right: 20px;
-    font-size: 18px;
+    margin-right: 25px;
+    font-size: 36px;
     font-family: 'Archivo Black', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;   
     transition: flex-grow .7s;
+    opacity: 70%;
 }
 
-.menuitems3 {
-    height: 90%;
-    flex-grow: 2;
-    flex-shrink: 1;
-    flex-basis: auto;
-    background-color: white;
-    margin-right: 20px;
-    font-size: 18px;
-    font-family: 'Archivo Black', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    transition: flex-grow .7s;
+#menuitem1{
+    background-image: url("img/1.jpg");
+    background-size: cover;
 }
 
-
-
-
-.container{
-    height: 300px;
-    font-size: 100px;
-    font-family: 'Archivo Black', sans-serif;
-    background-color: blue;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 10px solid black;
+#menuitem2{
+    background-image: url("img/2.jpg");
+    background-size: cover;
 }
 
-.item{
-    height: 100%;
-    background-color: white;
-    min-width: 100px;
+#menuitem3{
+    background-image: url("img/3.jpg");
+    background-size: cover;
+}
+
+#menuitem4{
+    background-image: url("img/4.jpg");
+    background-size: cover;
+}
+
+#menuitem5{
+    background-image: url("img/5.jpg");
+    background-size: cover;
+}
+
+#menuitem6{
+    background-image: url("img/6.jpg");
+    background-size: cover;
+}
+
+#menuitem7{
+    background-image: url("img/7.jpg");
+    background-size: cover;
+}
+
+#menuitem8{
+    background-image: url("img/8.jpg");
+    background-size: cover;
+}
+
+#menuitem9{
+    background-image: url("img/9.jpg");
+    background-size: cover;
+}
+
+#menuitem10{
+    background-image: url("img/10.jpg");
+    background-size: cover;
+}
+
+#menuitem11{
+    background-image: url("img/11.jpg");
+    background-size: cover;
+}
+
+#menuitem12{
+    background-image: url("img/12.jpg");
+    background-size: cover;
 }
 
 p{
@@ -107,8 +149,6 @@ p{
     font-size: 64px;
 }
 
-.longscroll{
-    background-image: linear-gradient(red, yellow, blue);
-    height: 5000px;
-}
+/* background-image: linear-gradient(red, yellow, blue); */
+
 
