@@ -17,7 +17,8 @@
 }
 
 .container{
-    z-index: 9;
+    width: 100%;
+    height: 100%;
     background-color: black;
 }
 
@@ -70,7 +71,7 @@
     -webkit-text-stroke: black;
     -webkit-text-stroke-width: 1px;
     height: 90%;
-    flex-grow: 5;
+    flex-grow: 2;
     flex-shrink: 1;
     flex-basis: auto;
     background-color: white;
@@ -81,7 +82,7 @@
     justify-content: center;
     align-items: center;   
     transition: flex-grow .7s;
-    opacity: 70%;
+    opacity: 50%;
 }
 
 #menuitem1{
